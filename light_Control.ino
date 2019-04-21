@@ -77,7 +77,7 @@ void loop() {
     Serial.print(textMessage);
     delay(100);
 
-    if (textMessage.indexOf("719881926") >= 0) {
+    if (textMessage.indexOf("**********") >= 0) {
       if (textMessage.indexOf("BULB1 ON") >= 0) {
         digitalWrite(bulb1, LOW);
         bulb1Status = "ON";
